@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    color:white;
+    height:100rem;
+    background-color:purple;
+}
+
+.calculadora{
+    top:50%;
+    left:50%;
+    padding:15px;
+    position:absolute;
+    border-radius: 15px;
+    transform:translate(-50%, -50%);
+    background-color:black;
+}
+
+.but{
+    width:50px;
+    height: 50px;
+    font-size: 25px;
+    background-color:black;
+    color: #ffffff;
+    border-color:rgb(31, 31, 31);
+}
+
+.but:hover{
+    width:50px;
+    height: 50px;
+    font-size: 25px;
+    border: none;
+    color: #ffffff;
+    background-color: rgb(31, 31, 31);
+}
+
+#igual{
+    height: 100px;
+}
+
+#zero{
+   width: 100px;
+}
